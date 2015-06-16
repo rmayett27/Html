@@ -1,0 +1,358 @@
+<!-- DECLARACION DE TIPO DE DOCUMENTO  -->
+<!DOCTYPE html>
+<!-- IDIOMA DE LA PAGINA -->
+<html lang="en">
+<!-- CONTENEDOR DE METADATOS (FUNCIONALIDADES)-->
+<head>
+	<!-- CODIFICACION PARA CARACTERES ESPECIALES -->
+	<meta charset="UTF-8">
+	<!-- TITULO DE LA PAGINA > 60 Y < 70 CARACTERES -->
+	<title>My Blogg</title>
+	<!-- CAMBIAR ICONO DE PAGINA-->
+	<link rel="shortcut icon" href="imagenes/favicon.ico" />
+	<!-- DESCRIPCION DE LA PAGINA > 60 Y < 70 CARACTERES -->
+	<meta name="Descripcion" content="Curso de html5, css3 y js" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<!-- NORMALIZAR LOS ESTILOS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link type='text/css' rel="stylesheet" href="css/normalize.css">	
+	<link ytpe='text/css' rel="stylesheet" href="css/index.css">
+	<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+</head>
+<!--  -->
+<!-- CONTENIDO DEL HTML -->
+<body>
+	<!-- CABECERA -->
+	<header>
+		<!-- CONTENEDOR DE IMAGEN CON ESTILOS -->		
+		<figure id="logo">
+			<img src="imagenes/Blog.png" />
+		</figure>
+		<!-- TITULO DE LA PAGINA -->
+		<h1>Mi Cine Blogg</h1>
+
+	</header>	
+	<!-- MENU DE NAVEGACION -->	
+	<nav>
+		<!-- LISTA NO ORDENADA -->
+		<ul>
+			<div id="m_menu" class="btn-group">
+						<a class="btn dropdown-toggle btn-info" data-toggle="dropdown" href=""><img id="m_menu" src="imagenes/menu.jpg" alt=""><a href"#">
+							<span class="icon-cog icon-blue"></a></span><span class="caret"></span>
+						</a>			
+			<ul class="dropdown-menu">
+							<li><a href=""><span class="icon-wrench"></span>Estrenos</a></li>
+							<li><a href=""><span class="icon-wrench"></span>Generos</a></li>
+							<li><a href=""><span class="icon-wrench"></span>Recomendaciones</a></li>
+							<li><a href=""><span class="icon-wrench"></span>Reportajes</a></li>
+							<li><a href=""><span class="icon-wrench"></span>Galeria</a></li>
+							<li><a href="admin.html"><span class="icon-wrench"></span>El Administrador</a></li>
+						</ul>
+					</div>
+			<li class="l_color"><a href="#" class="l_link">Estrenos</a></li>
+			<li class="l_color"><a href="#" class="l_link">Generos</a></li>
+			<li class="l_color"><a href="#" class="l_link">Recomendaciones</a></li>
+			<li class="l_color"><a href="#" class="l_link">Reportajes</a></li>
+			<li class="l_color"><a href="#" class="l_link">Galería</a></li>
+			<li class="l_color"><a href="admin.html" class="l_link">El Administrador</a></li>	
+			<li id="isesion">
+				<a href="#" id="mostraris" class="icon-isesion"> Iniciar Sesion</a>
+			</li>
+			<li id="addpost">
+				<a href="#" id="mostraraddp" class="icon-pen"> Agregar Post</a>
+			</li>
+		</ul>
+	</nav>
+
+	<form action="" id="formulario" class="class_acceso">
+		<input type="text" placeholder="Usuario" id="user" name="usuario" required>
+		<input type="password" placeholder="Contraseña" id="pass" name="contraseña" required>
+		<input type="submit" id="bentrar" value="Entrar">	
+	</form>
+
+	<form action="" id="formulario1" class="class_post">
+		<input type="text" placeholder="Título" id="i_titulo" name="titulo" required>
+		<input type="text" placeholder="Frase" id="i_frase" name="frase" requiere>
+		<input type="url" placeholder="Link" id="i_link" name="link">
+		<input type="submit" value="Agregar">
+	</form>
+
+	<!-- ASIDE -->
+	<aside id="m_aside">
+
+		<div id="mini_buscar" class="marco">
+			<h3 class="linea">Buscar 
+				<a href="" class="icon-buscar iconos_laterales"></a>
+			</h3>
+			
+			<div id="buscar">
+				<input type="text" placeholder="Frase" id="frase" name="frase" requiere>
+				<input type="submit" value="Buscar">
+			</div>
+		</div>
+
+		<div id="mini_leido" class="marco">
+			<h3 class="linea">Mas Leidos
+				<a href="" class="icon-mleidos iconos_laterales"></a>
+			</h3>
+			(tarea)
+			<div id="contenedor_ml1">
+
+				<div id="mini_img1">
+					
+				</div>
+				<div id="mtitulo1">
+					
+				</div>
+				<div id="descripcio1">
+					
+				</div>
+			</div>
+			<div id="contenedor_ml2">
+				<div id="mini_img2">
+					
+				</div>
+				<div id="mtitulo2">
+					
+				</div>
+				<div id="descripcio2">
+					
+				</div>
+			</div>
+			<div id="contenedor_ml3">
+				<div id="mini_img3">
+					
+				</div>
+				<div id="mtitulo3">
+					
+				</div>
+				<div id="descripcio3">
+					
+				</div>
+			</div>
+		</div>
+
+		<div id="mini_seguir" class="marco">
+			<h3 class="linea">Seguidores
+				<a href="" class="icon-seguidores iconos_laterales"></a>
+			</h3>
+			<div id="seg">
+				(tarea)
+			</div>
+		</div>
+
+		<div id="mini_contigo" class="marco">
+			<h3 class="linea">En Linea Contigo
+				<a href="" class="icon-contacto iconos_laterales"></a>
+			</h3>
+			<div id="sn">
+				<a href="https://www.blogger.com" class="icon-blogger bg"></a>
+				<a href="https://facebook.com" class="icon-facebook fb"></a>
+				<a href="https://twitter.com" class="icon-twitter tt"></a>
+				<a href="https://plus.google.com/" class="icon-gmas gm"></a>	
+			</div>
+		</div>
+
+		<div id="apps" class="marco">
+			<h3 class="linea">Descarga Nuestras Apps
+				<a href="" class="icon-cel iconos_laterales"></a>
+			</h3>
+		    <div class="b_apps">
+				<a href="" id="opcion1" class="opapp icon-android"></a>
+				<a href="" id="opcion2" class="opapp icon-apple"></a>
+			</div>
+		</div>
+		
+
+		<div id="mini_amigas" class="marco">
+			<h3 class="linea">Nuestros Amigos
+				<a href="" class="icon-amigos iconos_laterales"></a>
+			</h3>
+			(tarea)
+		</div>
+	</aside>	
+
+	<!-- SECCION DE ARTICULOS -->
+	<section id="id_contenedor" class="class_contenedor">
+		<!--ART1-->
+		<article class="articulo">
+			<figure class="img_art">
+				<img src="imagenes/articulo.png">
+			</figure>
+			<div class="class_genero">
+				<a href="#">Genero</a>	
+			</div>
+			
+			<h2 class="titulo">
+				<a href="#">Título # 1</a>
+			</h2>
+			<h3 class="frase">
+				<p>Frase intro</p>
+			</h3>
+			<div class="autor">
+				Por <a href="#">Rodrigo</a>
+			</div>
+
+			<div class="datos_item">
+				<div class="mas">
+					<a href="#">¿Más?</a>	
+				</div>
+				<div class="time">
+					<span class="fecha_item">Hace <strong>5</strong> min</span>
+				</div>
+			</div>	
+			<div class="clasificacion">
+				<div class="votos">
+					<a href="#" class="icon-mas i_mas"></a>
+					<a href="#" class="nvotos"> 720 </a>
+					<a href="#" class="icon-menos i_menos"></a>
+				</div>	
+				<div class="estrellas">
+					<a href="#" class="icon-star estrella"></a>
+					<a href="#" class="nestrellas"> 4</a>
+				</div>
+			</div>
+		</article>
+
+		<!--ART2-->
+		<article class="articulo">
+			<figure class="img_art">
+				<img src="imagenes/articulo.png">
+			</figure>
+			<div class="class_genero">
+				<a href="#">Genero</a>	
+			</div>
+			
+			<h2 class="titulo">
+				<a href="#">Título # 1</a>
+			</h2>
+			<h3 class="frase">
+				<p>Frase intro</p>
+			</h3>
+			<div class="autor">
+				Por <a href="#">Rodrigo</a>
+			</div>
+
+			<div class="datos_item">
+				<div class="mas">
+					<a href="#">¿Más?</a>	
+				</div>
+				<div class="time">
+					<span class="fecha_item">Hace <strong>5</strong> min</span>
+				</div>
+			</div>	
+			<div class="clasificacion">
+				<div class="votos">
+					<a href="#" class="icon-mas i_mas"></a>
+					<a href="#" class="nvotos"> 720 </a>
+					<a href="#" class="icon-menos i_menos"></a>
+				</div>	
+				<div class="estrellas">
+					<a href="#" class="icon-star estrella"></a>
+					<a href="#" class="nestrellas"> 4</a>
+				</div>
+			</div>
+		</article>
+
+				<!--ART1-->
+		<article class="articulo">
+			<figure class="img_art">
+				<img src="imagenes/articulo.png">
+			</figure>
+			<div class="class_genero">
+				<a href="#">Genero</a>	
+			</div>
+			
+			<h2 class="titulo">
+				<a href="#">Título # 1</a>
+			</h2>
+			<h3 class="frase">
+				<p>Frase intro</p>
+			</h3>
+			<div class="autor">
+				Por <a href="#">Rodrigo</a>
+			</div>
+
+			<div class="datos_item">
+				<div class="mas">
+					<a href="#">¿Más?</a>	
+				</div>
+				<div class="time">
+					<span class="fecha_item">Hace <strong>5</strong> min</span>
+				</div>
+			</div>	
+			<div class="clasificacion">
+				<div class="votos">
+					<a href="#" class="icon-mas i_mas"></a>
+					<a href="#" class="nvotos"> 720 </a>
+					<a href="#" class="icon-menos i_menos"></a>
+				</div>	
+				<div class="estrellas">
+					<a href="#" class="icon-star estrella"></a>
+					<a href="#" class="nestrellas"> 4</a>
+				</div>
+			</div>
+		</article>
+
+		<!--ART2-->
+		<article class="articulo">
+			<figure class="img_art">
+				<img src="imagenes/articulo.png">
+			</figure>
+			<div class="class_genero">
+				<a href="#">Genero</a>	
+			</div>
+			
+			<h2 class="titulo">
+				<a href="#">Título # 1</a>
+			</h2>
+			<h3 class="frase">
+				<p>Frase intro</p>
+			</h3>
+			<div class="autor">
+				Por <a href="#">Rodrigo</a>
+			</div>
+
+			<div class="datos_item">
+				<div class="mas">
+					<a href="#">¿Más?</a>	
+				</div>
+				<div class="time">
+					<span class="fecha_item">Hace <strong>5</strong> min</span>
+				</div>
+			</div>	
+			<div class="clasificacion">
+				<div class="votos">
+					<a href="#" class="icon-mas i_mas"></a>
+					<a href="#" class="nvotos"> 720 </a>
+					<a href="#" class="icon-menos i_menos"></a>
+				</div>	
+				<div class="estrellas">
+					<a href="#" class="icon-star estrella"></a>
+					<a href="#" class="nestrellas"> 4</a>
+				</div>
+			</div>
+		</article>
+	
+	</section>
+	<!-- PIE DE PAGINA -->
+	<footer>
+		<p>
+			<strong>Powerd By Rodrigo</strong>
+		</p>
+		<p>
+				- GCC -
+		</p>
+		<div id="logos_cine">
+			<figure id="cine">
+				<a href="http://cinemex.com/"><img src="imagenes/cm.png" alt=""/></a>
+				<a href="http://www.cinepolis.com/"><img src="imagenes/cp.png" alt=""></a>
+			</figure>
+		</div>
+	</footer>
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
