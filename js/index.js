@@ -8,13 +8,14 @@
 		$li = $('#i_link'),
 		$list = $('#id_contenedor'),
 		$art = $('.articulo').first(),
-		$maside = $('#m_aside'),
-		$perf = $('.container-fluid');
+		$maside = $('#m_aside');
+		
 
 	function  fIsesion(){
 		$form.slideToggle();
 		$list.slideToggle();
 		$maside.slideToggle();
+		$getElementById('oculto'.style.display = 'none';
 		return false;
 	}
 
@@ -49,10 +50,7 @@
 			$li.val('');
 			return false
 	}
-	function perfil(){
-		$perf();
-
-	}
+	
 
 $('#isesion a').click(fIsesion);
 $('#addpost a').click(faddpost);
