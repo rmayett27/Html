@@ -314,7 +314,7 @@ section #id_contenedor{
 
 #id_contenedor .articulo{
 	border-radius: 10px;
-	border: 3px solid #22BCE0;	
+	border: 3px solid black;	
 	background: white;
 	margin-bottom: 3em;
 	min-height: 128px;
