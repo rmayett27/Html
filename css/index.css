@@ -539,5 +539,5 @@ footer #logos_cine #cine img:hover{
 display: none;
 }
 #seg{
-	float: center;
+	vertical-align: middle;
 }
