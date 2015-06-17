@@ -534,3 +534,6 @@ footer #logos_cine #cine img:hover{
 .container-fluid{
 	background: black;
 }
+#oculto{
+display: none;
+}

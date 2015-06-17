@@ -8,7 +8,8 @@
 		$li = $('#i_link'),
 		$list = $('#id_contenedor'),
 		$art = $('.articulo').first(),
-		$maside = $('#m_aside');
+		$maside = $('#m_aside'),
+		$perf = $('.container-fluid');
 
 	function  fIsesion(){
 		$form.slideToggle();
@@ -47,6 +48,10 @@
 			$fr.val('');
 			$li.val('');
 			return false
+	}
+	function perfil(){
+		$perf();
+
 	}
 
 $('#isesion a').click(fIsesion);
