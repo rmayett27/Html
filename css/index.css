@@ -173,7 +173,7 @@ nav ul #m_menu img{
 } 
 
 nav ul #addpost{
-	position: absolute;
+	position: relative;
 	top: -1em;
 	right: 0;
 }
