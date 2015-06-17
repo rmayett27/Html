@@ -538,3 +538,6 @@ footer #logos_cine #cine img:hover{
 #oculto{
 display: none;
 }
+#seg{
+	float: center;
+}
