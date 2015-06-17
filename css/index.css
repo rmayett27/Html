@@ -355,7 +355,7 @@ section #id_contenedor{
 }
 
 #id_contenedor .articulo .datos_item{
-	border-bottom: 3px solid #22BCE0;
+	border-bottom: 3px solid black;
 	padding-bottom: .5em;
 	margin-bottom: .5em;
 	clear: both;
