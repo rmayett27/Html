@@ -436,6 +436,9 @@ footer {
 	text-align: center;
 	padding: .5em;
 }
+footer #espacio{
+	margin-top: 15em;
+}
 
 footer #logos_cine{
 	display: inline-block;
