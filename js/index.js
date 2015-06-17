@@ -14,8 +14,7 @@
 	function  fIsesion(){
 		$form.slideToggle();
 		$list.slideToggle();
-		$maside.slideToggle();
-		$getElementById('oculto'.style.display = 'none';
+		$maside.slideToggle();		
 		return false;
 	}
 
