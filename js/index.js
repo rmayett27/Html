@@ -49,12 +49,7 @@
 			$li.val('');
 			return false
 	}
-	$(document).ready(function(){
-		$("#bentrar").on( "click", function() {
-			$('#oculto').show(); 			
-		 }
-
-	
+		
 
 $('#isesion a').click(fIsesion);
 $('#addpost a').click(faddpost);
