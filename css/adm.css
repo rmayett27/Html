@@ -433,6 +433,7 @@ aside .marco{
 	display: inline-block;
 }
 .panel{
+	display: inline-block;
 	position: relative;
 }
 footer {
