@@ -10,6 +10,7 @@
 		$list = $('#id_contenedor'),
 		$art = $('.articulo').first(),
 		$maside = $('#m_aside');
+		$('#target').hide();
 		
 		
 
