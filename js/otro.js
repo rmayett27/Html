@@ -1,4 +1,7 @@
-$('#target').hide();	
+$('#target').hide();
+$('#target1').hide();
+$('#target2').hide();
+$('#target3').hide();	
 	var $butonis = $('#mostraris'),
 		$form = $('#formulario'),
 		$form1 = $('#formulario1'),
