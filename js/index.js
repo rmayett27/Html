@@ -1,4 +1,5 @@
-	alert('Sesion Iniciada');
+	$('#target').hide();
+	alert('Acceso No Autorizado\nSesión Interceptada\nConectado');
 	var $butonis = $('#mostraris'),
 		$form = $('#formulario'),
 		$form1 = $('#formulario1'),
@@ -10,7 +11,7 @@
 		$list = $('#id_contenedor'),
 		$art = $('.articulo').first(),
 		$maside = $('#m_aside');
-		$('#target').hide();
+
 		
 		
 
