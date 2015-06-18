@@ -430,14 +430,11 @@ aside .marco{
 }
 
 footer {
-	margin-top: 13em;
+	margin-top: 20em;
 	color: rgba(255,255,255,0.9);
 	background: #22BCE0;
 	text-align: center;
 	padding: .5em;
-}
-footer .espacio{
-	margin-top: 15em;
 }
 
 footer #logos_cine{
