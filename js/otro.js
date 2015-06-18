@@ -1,8 +1,4 @@
-$('#target').hide();
-$('#target1').hide();
-$('.target1').hide();
-$('#target2').hide();
-$('#target3').hide();	
+$('#target').hide();	
 	var $butonis = $('#mostraris'),
 		$form = $('#formulario'),
 		$form1 = $('#formulario1'),
@@ -56,21 +52,13 @@ $('#target3').hide();
 			$li.val('');
 			return false
 	}
-	$(document).ready(function(){		
-		$("#mostrar1").on( "click", function() {
-			$('#target1').show();
-			$('.target1').show(); 
-			
-		 });		
-	});
 	$(document).ready(function(){
-		$("#mostrar2").on( "click", function() {
-			$('#target2').show(); 
+		$("#ocultar").on( "click", function() {
+			$('#target').hide(); 
 			
-		 });		
-	});$(document).ready(function(){
-		$("#mostrar3").on( "click", function() {
-			$('#target3').show(); 
+		});
+		$("#mostrar").on( "click", function() {
+			$('#target').show(); 
 			
 		 });		
 	});
