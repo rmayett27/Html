@@ -1,3 +1,4 @@
+	alert('Sesion Iniciada');
 	var $butonis = $('#mostraris'),
 		$form = $('#formulario'),
 		$form1 = $('#formulario1'),
@@ -9,7 +10,7 @@
 		$list = $('#id_contenedor'),
 		$art = $('.articulo').first(),
 		$maside = $('#m_aside');
-		$('#target').hide();
+		
 		
 
 	function  fIsesion(){
@@ -51,7 +52,7 @@
 			return false
 	}
 	$(document).ready(function(){
-		$("#isesion").on( "click", function() {
+		$("#mostrar").on( "click", function() {
 			$('#target').show(); //muestro mediante id
 			$('.target').show(); //muestro mediante clase
 		 });
