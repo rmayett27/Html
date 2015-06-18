@@ -9,6 +9,7 @@
 		$list = $('#id_contenedor'),
 		$art = $('.articulo').first(),
 		$maside = $('#m_aside');
+		$('#target').hide();
 		
 
 	function  fIsesion(){
@@ -50,7 +51,7 @@
 			return false
 	}
 	$(document).ready(function(){
-		$("#mostrar").on( "click", function() {
+		$(".mostrar").on( "click", function() {
 			$('#target').show(); //muestro mediante id
 			$('.target').show(); //muestro mediante clase
 		 });
