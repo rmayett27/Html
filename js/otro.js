@@ -1,5 +1,4 @@
-	$('#target').hide();
-	alert('Acceso No Autorizado\nSesión Interceptada\nConectado');
+$('#target').hide();	
 	var $butonis = $('#mostraris'),
 		$form = $('#formulario'),
 		$form1 = $('#formulario1'),
