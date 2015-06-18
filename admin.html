@@ -21,7 +21,7 @@
 </head>
 <!--  -->
 <!-- CONTENIDO DEL HTML -->
-<body>
+<body background="imagenes/ac.jpg">
 	<!-- CABECERA -->
 	<header>
 		<!-- CONTENEDOR DE IMAGEN CON ESTILOS -->		
@@ -107,6 +107,9 @@
 		<input type="url" placeholder="Link" id="i_link" name="link">
 		<input type="submit" value="Agregar">
 	</form>
+	<input type="button" id="mostrar" name="boton1" value="Mostrar Datos de Sesión">
+<input type="button" id="ocultar" name="boton2" value="Ocultar Datos de Sesión">
+
 
 	<!-- ASIDE -->
 	<aside id="m_aside">
@@ -219,170 +222,8 @@
 			</ul>			
 		</div>
 	</aside>	
-
-	<!-- SECCION DE ARTICULOS -->
-	<section id="id_contenedor" class="class_contenedor">
-		<!--ART1-->
-		<article class="articulo">
-			<figure class="img_art">
-				<img src="imagenes/articulo.png">
-			</figure>
-			<div class="class_genero">
-				<a href="#">Genero</a>	
-			</div>
-			
-			<h2 class="titulo">
-				<a href="#">Título # 1</a>
-			</h2>
-			<h3 class="frase">
-				<p>Frase intro</p>
-			</h3>
-			<div class="autor">
-				Por <a href="#">Rodrigo</a>
-			</div>
-
-			<div class="datos_item">
-				<div class="mas">
-					<a href="#">¿Más?</a>	
-				</div>
-				<div class="time">
-					<span class="fecha_item">Hace <strong>5</strong> min</span>
-				</div>
-			</div>	
-			<div class="clasificacion">
-				<div class="votos">
-					<a href="#" class="icon-mas i_mas"></a>
-					<a href="#" class="nvotos"> 720 </a>
-					<a href="#" class="icon-menos i_menos"></a>
-				</div>	
-				<div class="estrellas">
-					<a href="#" class="icon-star estrella"></a>
-					<a href="#" class="nestrellas"> 4</a>
-				</div>
-			</div>
-		</article>
-
-		<!--ART2-->
-		<article class="articulo">
-			<figure class="img_art">
-				<img src="imagenes/articulo.png">
-			</figure>
-			<div class="class_genero">
-				<a href="#">Genero</a>	
-			</div>
-			
-			<h2 class="titulo">
-				<a href="#">Título # 1</a>
-			</h2>
-			<h3 class="frase">
-				<p>Frase intro</p>
-			</h3>
-			<div class="autor">
-				Por <a href="#">Rodrigo</a>
-			</div>
-
-			<div class="datos_item">
-				<div class="mas">
-					<a href="#">¿Más?</a>	
-				</div>
-				<div class="time">
-					<span class="fecha_item">Hace <strong>5</strong> min</span>
-				</div>
-			</div>	
-			<div class="clasificacion">
-				<div class="votos">
-					<a href="#" class="icon-mas i_mas"></a>
-					<a href="#" class="nvotos"> 720 </a>
-					<a href="#" class="icon-menos i_menos"></a>
-				</div>	
-				<div class="estrellas">
-					<a href="#" class="icon-star estrella"></a>
-					<a href="#" class="nestrellas"> 4</a>
-				</div>
-			</div>
-		</article>
-
-				<!--ART1-->
-		<article class="articulo">
-			<figure class="img_art">
-				<img src="imagenes/articulo.png">
-			</figure>
-			<div class="class_genero">
-				<a href="#">Genero</a>	
-			</div>
-			
-			<h2 class="titulo">
-				<a href="#">Título # 1</a>
-			</h2>
-			<h3 class="frase">
-				<p>Frase intro</p>
-			</h3>
-			<div class="autor">
-				Por <a href="#">Rodrigo</a>
-			</div>
-
-			<div class="datos_item">
-				<div class="mas">
-					<a href="#">¿Más?</a>	
-				</div>
-				<div class="time">
-					<span class="fecha_item">Hace <strong>5</strong> min</span>
-				</div>
-			</div>	
-			<div class="clasificacion">
-				<div class="votos">
-					<a href="#" class="icon-mas i_mas"></a>
-					<a href="#" class="nvotos"> 720 </a>
-					<a href="#" class="icon-menos i_menos"></a>
-				</div>	
-				<div class="estrellas">
-					<a href="#" class="icon-star estrella"></a>
-					<a href="#" class="nestrellas"> 4</a>
-				</div>
-			</div>
-		</article>
-
-		<!--ART2-->
-		<article class="articulo">
-			<figure class="img_art">
-				<img src="imagenes/articulo.png">
-			</figure>
-			<div class="class_genero">
-				<a href="#">Genero</a>	
-			</div>
-			
-			<h2 class="titulo">
-				<a href="#">Título # 1</a>
-			</h2>
-			<h3 class="frase">
-				<p>Frase intro</p>
-			</h3>
-			<div class="autor">
-				Por <a href="#">Rodrigo</a>
-			</div>
-
-			<div class="datos_item">
-				<div class="mas">
-					<a href="#">¿Más?</a>	
-				</div>
-				<div class="time">
-					<span class="fecha_item">Hace <strong>5</strong> min</span>
-				</div>
-			</div>	
-			<div class="clasificacion">
-				<div class="votos">
-					<a href="#" class="icon-mas i_mas"></a>
-					<a href="#" class="nvotos"> 720 </a>
-					<a href="#" class="icon-menos i_menos"></a>
-				</div>	
-				<div class="estrellas">
-					<a href="#" class="icon-star estrella"></a>
-					<a href="#" class="nestrellas"> 4</a>
-				</div>
-			</div>
-		</article>
+<div class="alert alert-danger" role="alert">Acceso Denegado</div>
 	
-	</section>
 	<!-- PIE DE PAGINA -->
 	<footer>
 		<p>
