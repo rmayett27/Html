@@ -1,5 +1,6 @@
 $('#target').hide();
 $('#target1').hide();
+$('.target1').hide();
 $('#target2').hide();
 $('#target3').hide();	
 	var $butonis = $('#mostraris'),
@@ -57,7 +58,8 @@ $('#target3').hide();
 	}
 	$(document).ready(function(){		
 		$("#mostrar1").on( "click", function() {
-			$('#target1').show(); 
+			$('#target1').show();
+			$('.target1').show(); 
 			
 		 });		
 	});
