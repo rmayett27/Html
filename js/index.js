@@ -51,7 +51,7 @@
 			return false
 	}
 	$(document).ready(function(){
-		$(".mostrar").on( "click", function() {
+		$("#isesion").on( "click", function() {
 			$('#target').show(); //muestro mediante id
 			$('.target').show(); //muestro mediante clase
 		 });
