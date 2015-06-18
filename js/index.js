@@ -32,7 +32,7 @@
 	function bienvenida(){
 		var user=$user.val(),
 			pass=$pass.val();
-			alert('Error\nTu usuario: '+user+'\nY\nTu Contraseña: '+pass+'\nSon Invalidas\nTu ya Iniciaste Sesión');
+			alert('Error\nTu usuario: '+user+'\n\t\tY\nTu Contraseña: '+pass+'\nSon Invalidas\nTu ya Iniciaste Sesión');
 	}
 
 	function addPost(){
