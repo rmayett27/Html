@@ -31,7 +31,7 @@ $('#target').hide();
 	function bienvenida(){
 		var user=$user.val(),
 			pass=$pass.val();
-			alert('Bienvenido\nTu usuario es: '+user+'\nTu Contraseña es: '+pass);
+			alert('Error\nTu usuario: '+user+'\nY\nTu Contraseña: '+pass+'\nSon Invalidas\nTu ya Iniciaste Sesión');
 	}
 
 	function addPost(){

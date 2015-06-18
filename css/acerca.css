@@ -429,6 +429,9 @@ aside .marco{
 	margin-bottom: 1em
 }
 
+#mostrar{
+	display: inline-block;
+}
 footer {
 	margin-top: 62em;
 	color: rgba(255,255,255,0.9);
