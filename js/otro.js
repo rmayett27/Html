@@ -52,17 +52,23 @@ $('#target').hide();
 			$li.val('');
 			return false
 	}
-	$(document).ready(function(){
-		$("#ocultar").on( "click", function() {
-			$('#target').hide(); 
-			
-		});
-		$("#mostrar").on( "click", function() {
-			$('#target').show(); 
+	$(document).ready(function(){		
+		$("#mostrar1").on( "click", function() {
+			$('#target1').show(); 
 			
 		 });		
 	});
-	
+	$(document).ready(function(){
+		$("#mostrar2").on( "click", function() {
+			$('#target2').show(); 
+			
+		 });		
+	});$(document).ready(function(){
+		$("#mostrar3").on( "click", function() {
+			$('#target3').show(); 
+			
+		 });		
+	});
 
 $('#isesion a').click(fIsesion);
 $('#addpost a').click(faddpost);
